@@ -1,4 +1,4 @@
 # Cartoonify-an-Image-with-OpenCV
 
-OpenCV kullanarak bir görüntüyü kendi karikatürüne dönüştürecek bir python uygulaması oluşturmaya çalıstım.
+OpenCV kullanarak bir fotağrafı  karikatür biçimine  dönüştürecek bir python uygulaması oluşturmaya çalıstım.
 
