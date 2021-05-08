@@ -1,4 +1,4 @@
 # Fotograflari-Karikaturlestirme-OpenCV
 
-OpenCV kullanarak bir fotağrafı  karikatür biçimine  dönüştürecek bir python uygulaması oluşturmaya çalıstım.
+OpenCV kullanarak bir fotağrafı  karikatür biçimine  dönüştürecek python uygulaması oluşturmaya çalıstım.
 
