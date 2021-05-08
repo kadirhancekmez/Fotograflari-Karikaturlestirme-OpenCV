@@ -2,7 +2,6 @@ import cv2 #Fotağrafı işlemek için
 import easygui
 import numpy as np #Fotağrafı saklamak için
 import imageio #Fotağrafı almak için
-
 import sys
 import matplotlib.pyplot as plt
 import os
@@ -60,7 +59,7 @@ def karikaturlestirme(Fotagraf):
     #plt.imshow(ReSized4, cmap='gray')
 
 
-    #kenari keskin olması lazım
+    # keskinlestirme
     renkliFoto = cv2.bilateralFilter(gercekfotograf, 9, 300, 300)
     ReSized5 = cv2.resize(renkliFoto, (960, 540))
     #plt.imshow(ReSized5, cmap='gray')
@@ -93,8 +92,6 @@ def kaydet(ReSized6, Fotagraf):
     cv2.imwrite(path, cv2.cvtColor(ReSized6, cv2.COLOR_RGB2BGR))
     I= "Fotağrafı " + yeniAD +"Adı ile Kaydet           "+ path
     tk.messagebox.showinfo(title=None, message=I)
-
-
 
 
 yukleme=Button(top,text="Karikatürleştirmek İstediğin Resmi Seç",command=yukleme,padx=10,pady=5)
